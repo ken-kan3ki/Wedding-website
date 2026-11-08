@@ -1,0 +1,6 @@
+{
+  "name": "Rivayat & Noor - Pakistan Luxury Wedding Directory",
+  "description": "The premier luxury wedding directory & marketplace for Pakistan, curating heritage marquees, bridal couture, photographers, and master caterers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
