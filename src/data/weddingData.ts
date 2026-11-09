@@ -1,3 +1,15 @@
+import heroLahoreMarquee from '../assets/images/hero_lahore_marquee_1794130651543.jpg';
+import bridalCoutureRed from '../assets/images/bridal_couture_red_1794130652402.jpg';
+import walimaStageDecor from '../assets/images/walima_stage_decor_1794130652967.jpg';
+import mehndiHennaArtisan from '../assets/images/mehndi_henna_artisan_1794130653455.jpg';
+
+export const ASSETS = {
+  heroLahoreMarquee,
+  bridalCoutureRed,
+  walimaStageDecor,
+  mehndiHennaArtisan,
+};
+
 export interface Venue {
   id: string;
   name: string;
@@ -101,8 +113,8 @@ export const VENUES_DATA: Venue[] = [
     pricePerHeadMax: 6500,
     hallRent: 450000,
     images: [
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg',
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg',
+      heroLahoreMarquee,
+      walimaStageDecor,
     ],
     isVerified: true,
     segregatedHalls: true,
@@ -155,8 +167,8 @@ export const VENUES_DATA: Venue[] = [
     pricePerHeadMax: 5200,
     hallRent: 380000,
     images: [
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg',
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg'
+      walimaStageDecor,
+      heroLahoreMarquee
     ],
     isVerified: true,
     segregatedHalls: true,
@@ -203,8 +215,8 @@ export const VENUES_DATA: Venue[] = [
     pricePerHeadMax: 7000,
     hallRent: 600000,
     images: [
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg',
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg'
+      heroLahoreMarquee,
+      walimaStageDecor
     ],
     isVerified: true,
     segregatedHalls: true,
@@ -251,8 +263,8 @@ export const VENUES_DATA: Venue[] = [
     pricePerHeadMax: 8500,
     hallRent: 750000,
     images: [
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg',
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg'
+      walimaStageDecor,
+      heroLahoreMarquee
     ],
     isVerified: true,
     segregatedHalls: true,
@@ -299,8 +311,8 @@ export const VENUES_DATA: Venue[] = [
     pricePerHeadMax: 4200,
     hallRent: 300000,
     images: [
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg',
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg'
+      heroLahoreMarquee,
+      walimaStageDecor
     ],
     isVerified: true,
     segregatedHalls: true,
@@ -347,8 +359,8 @@ export const VENUES_DATA: Venue[] = [
     pricePerHeadMax: 6800,
     hallRent: 500000,
     images: [
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg',
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg'
+      walimaStageDecor,
+      heroLahoreMarquee
     ],
     isVerified: true,
     segregatedHalls: true,
@@ -394,10 +406,10 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 128,
     isVerified: true,
     leadTimeWeeks: 14,
-    image: '/src/assets/images/bridal_couture_red_1794130652402.jpg',
+    image: bridalCoutureRed,
     portfolio: [
-      '/src/assets/images/bridal_couture_red_1794130652402.jpg',
-      '/src/assets/images/mehndi_henna_artisan_1794130653455.jpg'
+      bridalCoutureRed,
+      mehndiHennaArtisan
     ],
     tagline: 'Mughal theatrical grandeur with bespoke dabka, antique tilla, and handwoven raw silk.',
     inclusions: [
@@ -422,10 +434,10 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 240,
     isVerified: true,
     leadTimeWeeks: 6,
-    image: '/src/assets/images/mehndi_henna_artisan_1794130653455.jpg',
+    image: mehndiHennaArtisan,
     portfolio: [
-      '/src/assets/images/bridal_couture_red_1794130652402.jpg',
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg'
+      bridalCoutureRed,
+      walimaStageDecor
     ],
     tagline: 'Pakistan’s foremost documentary wedding visualists, capturing soulful emotion and regal poise.',
     inclusions: [
@@ -450,10 +462,10 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 165,
     isVerified: true,
     leadTimeWeeks: 8,
-    image: '/src/assets/images/walima_stage_decor_1794130652967.jpg',
+    image: walimaStageDecor,
     portfolio: [
-      '/src/assets/images/walima_stage_decor_1794130652967.jpg',
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg'
+      walimaStageDecor,
+      heroLahoreMarquee
     ],
     tagline: 'Monumental architectural stage arches, imported Dutch flora, and opulent crystal walkways.',
     inclusions: [
@@ -478,9 +490,9 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 89,
     isVerified: true,
     leadTimeWeeks: 20,
-    image: '/src/assets/images/bridal_couture_red_1794130652402.jpg',
+    image: bridalCoutureRed,
     portfolio: [
-      '/src/assets/images/bridal_couture_red_1794130652402.jpg'
+      bridalCoutureRed
     ],
     tagline: 'Museum-grade craftsmanship preserving centuries of Kashmiri kani and Persian miniature motifs.',
     inclusions: [
@@ -505,9 +517,9 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 310,
     isVerified: true,
     leadTimeWeeks: 3,
-    image: '/src/assets/images/hero_lahore_marquee_1794130651543.jpg',
+    image: heroLahoreMarquee,
     portfolio: [
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg'
+      heroLahoreMarquee
     ],
     tagline: 'Third-generation Mughal Bawarchikhana masters revered for slow-cooked Dum Pukht mutton and saffron biryani.',
     inclusions: [
@@ -532,9 +544,9 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 420,
     isVerified: true,
     leadTimeWeeks: 4,
-    image: '/src/assets/images/mehndi_henna_artisan_1794130653455.jpg',
+    image: mehndiHennaArtisan,
     portfolio: [
-      '/src/assets/images/mehndi_henna_artisan_1794130653455.jpg'
+      mehndiHennaArtisan
     ],
     tagline: 'Intricate heirloom jaali patterns, Mughal couple portraits, and pure triple-filtered Rajasthani sojat henna.',
     inclusions: [
@@ -559,9 +571,9 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 195,
     isVerified: true,
     leadTimeWeeks: 5,
-    image: '/src/assets/images/bridal_couture_red_1794130652402.jpg',
+    image: bridalCoutureRed,
     portfolio: [
-      '/src/assets/images/bridal_couture_red_1794130652402.jpg'
+      bridalCoutureRed
     ],
     tagline: 'Globally celebrated for luminous, dewy skin, sculpted Mughal eyes, and bespoke dupatta draping.',
     inclusions: [
@@ -586,9 +598,9 @@ export const VENDORS_DATA: Vendor[] = [
     reviewsCount: 75,
     isVerified: true,
     leadTimeWeeks: 2,
-    image: '/src/assets/images/hero_lahore_marquee_1794130651543.jpg',
+    image: heroLahoreMarquee,
     portfolio: [
-      '/src/assets/images/hero_lahore_marquee_1794130651543.jpg'
+      heroLahoreMarquee
     ],
     tagline: 'Arrive like royalty in 1962 Rolls-Royce Silver Cloud, 1954 Jaguar Mark VII, or custom floral palanquin.',
     inclusions: [
@@ -610,7 +622,7 @@ export const REAL_WEDDINGS: RealWedding[] = [
     venueName: 'The Nishat Royal Marquee',
     venueId: 'nishat-banquets-lahore',
     date: 'February 2026',
-    coverImage: '/src/assets/images/hero_lahore_marquee_1794130651543.jpg',
+    coverImage: heroLahoreMarquee,
     story: 'An architectural Walima reception hosting 1,200 guests with emerald foliage, Mughal ivory arches, and a timeless bespoke ivory ensemble.',
     palette: ['#0F382C', '#C5A880', '#FAF8F5'],
     guestCount: 1200,
@@ -629,7 +641,7 @@ export const REAL_WEDDINGS: RealWedding[] = [
     venueName: 'Creek Marina Grand Lawns',
     venueId: 'creek-lawns-karachi',
     date: 'January 2026',
-    coverImage: '/src/assets/images/mehndi_henna_artisan_1794130653455.jpg',
+    coverImage: mehndiHennaArtisan,
     story: 'An electric outdoor coastal Mehndi with traditional dholak circles, thousands of marigold blooms, and bespoke henna storytelling.',
     palette: ['#D4AF37', '#725B38', '#0B0F17'],
     guestCount: 850,
@@ -648,7 +660,7 @@ export const REAL_WEDDINGS: RealWedding[] = [
     venueName: 'Serena Sheesh Mahal',
     venueId: 'serena-sheesh-mahal-islamabad',
     date: 'December 2025',
-    coverImage: '/src/assets/images/bridal_couture_red_1794130652402.jpg',
+    coverImage: bridalCoutureRed,
     story: 'A solemn royal Nikkah followed by a candlelight Baraat against the Margalla hills, celebrating authentic heritage craft.',
     palette: ['#0B0F17', '#C5A880', '#BA1A1A'],
     guestCount: 650,

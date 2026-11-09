@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, MapPin, Sparkles, ArrowRight, ShieldCheck, Clock, Users, ChevronRight } from 'lucide-react';
-import { CATEGORIES, VENUES_DATA, REAL_WEDDINGS, EDITORIAL_ARTICLES, Venue, RealWedding } from '../data/weddingData';
+import { CATEGORIES, VENUES_DATA, REAL_WEDDINGS, EDITORIAL_ARTICLES, Venue, RealWedding, ASSETS } from '../data/weddingData';
 import { VenueCard } from '../components/VenueCard';
 
 interface HomePageProps {
@@ -48,7 +48,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* Background Image with Opulent Scrim */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_lahore_marquee_1794130651543.jpg"
+            src={ASSETS.heroLahoreMarquee}
             alt="Opulent Pakistani Marquee Pavilion"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-35 scale-105 transition-transform duration-1000"
